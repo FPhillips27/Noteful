@@ -16,12 +16,13 @@
 body {
   background-color: #F8ECC2;
   color: rgb(73, 73, 73);
-  font-family: Didot, serif;
+  font-family: 'Amatic SC', cursive;
 }
 
 h1, h2, h3 {
-  color: rgb(73, 73, 73);
-  font-family: Didot, serif;
+  color: #222;
+  font-family: 'Amatic SC', cursive;
+  
 }
 
 a {
@@ -51,6 +52,10 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: #FFF;
+}
+
+p {
+  font-size:2em;
 }
 
 .content {
