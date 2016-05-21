@@ -1,4 +1,4 @@
-![Noteful Logo](app/assets/images/Noteful.png?raw=true "Noteful Logo")
+<img src="app/assets/images/Noteful.png" width="200">
 =======
 ###Overview
 
