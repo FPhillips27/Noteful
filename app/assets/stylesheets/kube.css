@@ -255,7 +255,7 @@ a {
 }
 a:focus,
 a:hover {
-  color: #de2c3b;
+  color: #85794E;
 }
 /* =Headings
 -----------------------------------------------------------------------------*/
@@ -1393,10 +1393,7 @@ input.input-smaller {
   display: block;
   text-decoration: none;
 }
-.navbar a:hover {
-  color: #de2c3b;
-  text-decoration: underline;
-}
+
 .navbar li.active a,
 .navbar span {
   text-decoration: none;

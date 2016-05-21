@@ -30,7 +30,7 @@ class NotesController < ApplicationController
     @note = Note.find(params[:id])
 
     if @note.update(note_params)
-      flash.notice = "Your note'#{@note.title}' has just been updated!"
+      flash.notice = "Your note '#{@note.title}' has just been updated!"
       redirect_to @note
     else
       render 'edit'

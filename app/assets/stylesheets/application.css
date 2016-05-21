@@ -14,15 +14,18 @@
  *= require_self
  */
 body {
-  background-color: #F8ECC2;
+  background-color: #EEE;
   color: rgb(73, 73, 73);
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Playfair Display', sans-serif;
 }
 
 h1, h2, h3 {
   color: #222;
-  font-family: 'Amatic SC', cursive;
-  
+  font-family: 'Playfair Display', Serif;
+}
+
+h3 {
+  font-weight: normal
 }
 
 a {
@@ -32,8 +35,15 @@ a {
 nav {
   background-color: #646BAB;
   height: 40px;
-  border-bottom: 2px solid #000;
+  box-shadow: 0px 0px 25px #555;
+
 }
+
+nav a {
+  color: #FFF;
+}
+
+
 nav ul {
   list-style:none;
   padding:5px;
@@ -51,11 +61,11 @@ nav ul li a {
   text-decoration:none;
 }
 nav ul li a:hover {
-  color: #FFF;
+  color: #D9C57F;
 }
 
 p {
-  font-size:2em;
+  font-size:1em;
 }
 
 .content {
@@ -68,6 +78,7 @@ p {
   display:block;
   margin:0 auto;
 }
+
 .container {
   display:block;
   margin:0 auto;
@@ -92,4 +103,26 @@ p {
 
 .flash {
   color: #333;
+}
+
+
+.note-text {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.note-add {
+  margin-left: 23%;
+  margin-right: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.5em;
+}
+
+.note {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
