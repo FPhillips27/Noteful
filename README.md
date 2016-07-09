@@ -2,7 +2,7 @@
 =======
 ###Overview
 
-Noteful is part of the curriculum in Thinkful's "Fundamentals of Web Development with Rails" course (https://www.thinkful.com/courses/learn-ruby-on-rails-online/). 
+Noteful is a webapp I created as part of the curriculum in Thinkful's "Fundamentals of Web Development with Rails" course (https://www.thinkful.com/courses/learn-ruby-on-rails-online/). 
 
 I cloned the bulk of the code from a repository provided by the course (https://github.com/Thinkful-Ed/Noteful).
 
@@ -15,10 +15,10 @@ The Thinkful curriculum walked me through adding this, but the implementation is
 I have tweaked the CSS to make it look a little more stylish.
 
 ##### Front page
-![Noteful Front Page](app/assets/images/NotefulForkFrontPage.png?raw=true "Noteful Front Page")
+![Noteful Front Page](app/assets/images/NotefulForkFrontPage.jpg?raw=true "Noteful Front Page")
 
 ##### Notes page
-![Noteful Notes Page](app/assets/images/NotefulForkNotePage.png?raw=true "Noteful Notes Page")
+![Noteful Notes Page](app/assets/images/NotefulForkNotePage.jpg?raw=true "Noteful Notes Page")
 
 ##Authors
 **Alvin Kato J.R.** _(Original)_
