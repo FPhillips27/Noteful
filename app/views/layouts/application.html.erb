@@ -16,8 +16,8 @@
         <% if user_signed_in? %>
           <li><%= link_to "Log Out", destroy_user_session_path, method: :delete%></li>
         <% else %>
-          <li><%= link_to "Sign Up", new_user_registration_path %></li>
-          <li><%= link_to "Log In", new_user_session_path %></li>
+          <li><span id="Sign Up"><%= link_to "Sign Up", new_user_registration_path %></span></li>
+          <li><span id="Log In"><%= link_to "Log In", new_user_session_path %></span></li>
         <% end %>
       </ul>
     </nav>
