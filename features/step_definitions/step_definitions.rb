@@ -30,3 +30,10 @@ When(/^I click "([^"]*)"$/) do |text|
     click_on(("#{text}"), :match => :first)
 end
 
+When(/^I fill in "([^"]*)" with the text "([^"]*)"$/) do |field, text|
+    fill_in ("#{field}"), :with => ("#{text}")
+end
+
+When(/^I submit my edited Note$/) do
+    first('.actions input[type="submit"]').click
+end
