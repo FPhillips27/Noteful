@@ -1,4 +1,5 @@
 <img src="app/assets/images/Noteful.png" width="200">
+[![Build Status](https://travis-ci.org/FPhillips27/Noteful.svg?branch=master)](https://travis-ci.org/FPhillips27/Noteful)
 =======
 ###Overview
 
