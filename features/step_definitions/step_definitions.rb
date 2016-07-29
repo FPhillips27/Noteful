@@ -11,11 +11,7 @@ Then(/^I will see the element "([^"]*)"$/) do |selector|
 end
 
 Given(/^a valid user$/) do
-  @user = User.create!({
-             :email => "testuser@invalid.com",
-             :password => "testpassword",
-             :password_confirmation => "testpassword"
-           })
+  @user = User.create!({:email => "testuser@invalid.com", :password => "testpassword", :password_confirmation => "testpassword"})
 end
 
 Given(/^that I am logged in as a valid user$/) do
