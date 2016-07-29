@@ -1,5 +1,5 @@
 <img src="app/assets/images/Noteful.png" width="200">
-[![Build Status](https://travis-ci.org/FPhillips27/Noteful.svg?branch=master)](https://travis-ci.org/FPhillips27/Noteful)
+[![Build Status](https://travis-ci.org/FPhillips27/Noteful.svg?branch=master)](https://travis-ci.org/FPhillips27/Noteful) [![Code Climate](https://codeclimate.com/github/FPhillips27/Noteful/badges/gpa.svg)](https://codeclimate.com/github/FPhillips27/Noteful) [![Test Coverage](https://codeclimate.com/github/FPhillips27/Noteful/badges/coverage.svg)](https://codeclimate.com/github/FPhillips27/Noteful/coverage)
 =======
 ###Overview
 
