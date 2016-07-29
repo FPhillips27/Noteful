@@ -694,9 +694,6 @@ input[type="range"] {
   top: 3px;
 }
 
-select {
-  margin-bottom: 0 !important;
-}
 
 fieldset {
   padding: 1.65em;
@@ -1304,13 +1301,7 @@ table.table-hovered tbody tr:hover td {
 /* =Forms
 -----------------------------------------------------------------------------*/
 
-.forms .btn,
-.forms input[type="submit"].btn,
-.forms button,
-.forms input[type="submit"],
-.forms input[type="reset"] {
-  padding: 0.3625em 1.3em;
-}
+
 
 .forms .btn-outline {
   padding: 0.3em 1.3em;
@@ -3789,9 +3780,6 @@ ul.dropdown li.divider {
   text-align: right;
 }
 
-.last {
-  margin-right: 0 !important;
-}
 
 .pause {
   margin-bottom: 0.825em;
@@ -4350,9 +4338,7 @@ ul.dropdown li.divider {
     border: none;
     font-style: italic;
   }
-  img {
-    max-width: 100% !important;
-  }
+
   select {
     background: #fff !important;
   }
