@@ -3,13 +3,7 @@
 */
 /* =Reset
 -----------------------------------------------------------------------------*/
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -103,10 +97,7 @@ h6 {
   vertical-align: baseline;
   background: transparent;
 }
-a:active,
-a:hover {
-  outline: 0;
-}
+
 article,
 aside,
 details,
@@ -259,12 +250,6 @@ a:hover {
 }
 /* =Headings
 -----------------------------------------------------------------------------*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
 .h1,
 .h2,
 .h3,
@@ -382,7 +367,7 @@ blockquote p {
 }
 blockquote small,
 cite {
-  color: rgba(0, 0, 0, 0.4);
+  color: #000;
   font-style: italic;
 }
 small,
@@ -487,7 +472,7 @@ pre code {
   line-height: 1.65em;
 }
 var {
-  color: rgba(0, 0, 0, 0.5);
+  color: #000;
 }
 samp {
   background: #d3e3fb;
@@ -495,7 +480,7 @@ samp {
 }
 kbd {
   background: #0f0f0f;
-  color: rgba(255, 255, 255, 0.85);
+  color: #000;
   white-space: nowrap;
 }
 /* =Form
