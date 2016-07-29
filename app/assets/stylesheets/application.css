@@ -13,13 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
 body {
   background-color: #EEE;
   color: rgb(73, 73, 73);
   font-family: 'Playfair Display', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: #222;
   font-family: 'Playfair Display', Serif;
 }
@@ -36,36 +39,38 @@ nav {
   background-color: #646BAB;
   height: 40px;
   box-shadow: 0px 0px 25px #555;
-
 }
 
 nav a {
   color: #FFF;
 }
 
-
 nav ul {
-  list-style:none;
-  padding:5px;
+  list-style: none;
+  padding: 5px;
 }
+
 nav ul li {
-  display:inline;
+  display: inline;
   border-right: 1px solid #252840;
-  padding:5px;
+  padding: 5px;
 }
+
 nav ul li:last-child {
-  border-right:0;
+  border-right: 0;
 }
+
 nav ul li a {
   font-weight: bold;
-  text-decoration:none;
+  text-decoration: none;
 }
+
 nav ul li a:hover {
   color: #D9C57F;
 }
 
 p {
-  font-size:1em;
+  font-size: 1em;
 }
 
 .content {
@@ -74,26 +79,27 @@ p {
 }
 
 .center {
-  text-align:center;
-  display:block;
-  margin:0 auto;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 .container {
-  display:block;
-  margin:0 auto;
-  text-align:center;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
+
 .button {
-  text-decoration:none;
+  text-decoration: none;
   border: 1px solid rgb(132, 132, 132);
   border-radius: 3px;
-  padding:6px;
-  background-color:inherit;
-  font-size:14px;
-  font-weight:bold;
+  padding: 6px;
+  background-color: inherit;
+  font-size: 14px;
+  font-weight: bold;
   color: rgb(70, 69, 69);
-  display:inline-block;
+  display: inline-block;
   margin: 5px;
 }
 
@@ -105,12 +111,10 @@ p {
   color: #333;
 }
 
-
 .note-text {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 .note-add {
