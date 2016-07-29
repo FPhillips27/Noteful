@@ -306,7 +306,6 @@ a:hover {
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Tahoma, sans-serif;
   font-weight: bold;
   color: #000000;
   text-rendering: optimizeLegibility;
@@ -3660,7 +3659,7 @@ ul.dropdown li.divider {
   overflow: auto;
   width: 100%;
   height: 100%;
-  background-color: #000 !important;
+  background-color: #000;
   filter: alpha(opacity=30);
   -moz-opacity: 0.3;
   opacity: 0.3;
@@ -3795,11 +3794,11 @@ ul.dropdown li.divider {
 }
 
 .pause {
-  margin-bottom: 0.825em !important;
+  margin-bottom: 0.825em;
 }
 
 .end {
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
 }
 
 .normal {
@@ -4304,13 +4303,7 @@ ul.dropdown li.divider {
 }
 
 @media print {
-  * {
-    text-shadow: none !important;
-    color: #000 !important;
-    background: transparent !important;
-    box-shadow: none !important;
-    font-size: 12pt;
-  }
+
   .h1,
   h1 {
     font-size: 36pt;
