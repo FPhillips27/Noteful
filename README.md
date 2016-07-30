@@ -3,13 +3,12 @@
 =======
 ###Overview
 
-Noteful is a webapp I created as part of the curriculum in Thinkful's "Fundamentals of Web Development with Rails" course (https://www.thinkful.com/courses/learn-ruby-on-rails-online/). 
+Noteful lets users store their notes online. I created this app as part of Thinkful's "Fundamentals of Web Development with Rails" course (https://www.thinkful.com/courses/learn-ruby-on-rails-online/). 
 
 I cloned the bulk of the code from a repository provided by the course (https://github.com/Thinkful-Ed/Noteful).
 
-My primary contribution to this fork of Noteful deals with handling notes which are over 100 characters. 
-The original version of the app presents users with the full note (which is a little overwhelming if you've got multiple notes.) 
-Now, I only present them with the first 100 characters. After that, it displays "... (read more)." 
+One of my main contributions to this fork of Noteful deals with Notes which are over 100 characters long. The original version of this app always presents users with the notes in their entirety. (This can be overwhelming if you have a lot of notes.) Thanks to my alteration, now it only presents the first 100 characters. After that, it displays "... (read more)." 
+
 The Thinkful curriculum walked me through adding this, but the implementation is mine.
 
 ###Visual Styling
