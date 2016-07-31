@@ -38,13 +38,9 @@ group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
 
-  # Access an IRB console on exception pages or by using <%= console %> in views
-    gem 'web-console', group: :development
-    
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-
 
 group :production do
   gem 'rails_12factor'
@@ -57,7 +53,9 @@ group :test do
   gem 'database_cleaner'
 end
 
-gem 'capybara'
-gem 'rspec'
+  gem 'capybara'
+  gem 'rspec'
+  gem 'web-console', group: :development
 
-gem "codeclimate-test-reporter", group: :test, require: nil
+
+  gem "codeclimate-test-reporter", group: :test, require: nil
