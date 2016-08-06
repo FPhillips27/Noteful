@@ -57,5 +57,5 @@ end
   gem 'rspec'
   gem 'web-console', group: :development
 
-
+  gem 'record_tag_helper', '~> 1.0'
   gem "codeclimate-test-reporter", group: :test, require: nil
