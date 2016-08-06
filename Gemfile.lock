@@ -54,10 +54,7 @@ GEM
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
-    byebug (3.5.1)
-      columnize (~> 0.8)
-      debugger-linecache (~> 1.2)
-      slop (~> 3.6)
+    byebug (9.0.5)
     capybara (2.7.1)
       addressable
       mime-types (>= 1.16)
@@ -74,7 +71,6 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.10.0)
-    columnize (0.8.9)
     concurrent-ruby (1.0.2)
     cucumber (2.4.0)
       builder (>= 2.1.2)
@@ -95,7 +91,6 @@ GEM
     cucumber-wire (0.0.1)
     database_cleaner (1.5.2)
     debug_inspector (0.0.2)
-    debugger-linecache (1.2.0)
     diff-lcs (1.2.5)
     docile (1.1.5)
     erubis (2.7.0)
@@ -194,7 +189,6 @@ GEM
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
-    slop (3.6.0)
     spring (1.2.0)
     sprockets (3.7.0)
       concurrent-ruby (~> 1.0)
