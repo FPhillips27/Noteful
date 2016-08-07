@@ -1,4 +1,4 @@
-class AddUserIdToNotes < ActiveRecord::Migration
+class AddUserIdToNotes < ActiveRecord::Migration[4.2]
   def change
     add_column :notes, :user_id, :integer
   end
