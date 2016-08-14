@@ -702,7 +702,7 @@ fieldset {
 }
 
 fieldset *:last-child {
-  margin-bottom: 0 !important;
+  margin-bottom: 0 ;
 }
 
 legend {
@@ -1037,8 +1037,8 @@ table tfoot td {
 
 .centered,
 .unit-centered {
-  float: none !important;
-  margin: 0 auto !important;
+  float: none ;
+  margin: 0 auto ;
 }
 
 .unit-padding {
@@ -1546,7 +1546,7 @@ input.input-smaller {
 /* Append & Prepend */
 
 .input-groups {
-  display: table !important;
+  display: table ;
 }
 
 .input-groups input {
@@ -1557,7 +1557,7 @@ input.input-smaller {
 .input-groups .input-append,
 .input-groups .input-prepend,
 .input-groups .btn-append {
-  display: table-cell !important;
+  display: table-cell ;
 }
 
 .input-groups .btn-append,
@@ -1747,7 +1747,7 @@ input.input-smaller {
 }
 
 .fullwidth li {
-  float: none !important;
+  float: none ;
   margin: 0;
   display: table-cell;
   width: 1%;
@@ -4340,6 +4340,6 @@ ul.dropdown li.divider {
   }
 
   select {
-    background: #fff !important;
+    background: #fff ;
   }
 }
