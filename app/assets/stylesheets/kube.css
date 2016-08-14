@@ -1433,6 +1433,7 @@ input[type="datetime-local"],
 textarea {
   -moz-transition: border ease 0.5s;
   transition: border ease 0.5s;
+  -webkit-transition: border ease 0.5s;
 }
 
 
@@ -1752,7 +1753,6 @@ input.input-smaller {
 
 .fullwidth li {
   float: none ;
-  margin: 0;
   display: table-cell;
   width: 1%;
   text-align: center;
@@ -1803,7 +1803,7 @@ input.input-smaller {
   color: rgba(0, 0, 0, 0.4);
 }
 
-.nav i.fa {
+.nav .fa {
   width: 1.65em;
 }
 
@@ -2072,7 +2072,6 @@ input[type="submit"].btn {
   color: #222222;
   -webkit-appearance: none;
   -moz-appearance: none;
-  outline: none;
   margin: 0;
   border: none;
   border-radius: 2px;
