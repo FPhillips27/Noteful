@@ -2016,83 +2016,6 @@ input.input-smaller {
   color: #fff;
 }
 
-/* =Notifications
------------------------------------------------------------------------------*/
-
-.tools-alert {
-  padding: 12px 15px;
-  background: #f7f8f8;
-  color: #0f0f0f;
-  margin-bottom: 1.65em;
-}
-
-.tools-message {
-  display: none;
-  position: fixed;
-  z-index: 100;
-  top: 10px;
-  right: 10px;
-  max-width: 350px;
-  line-height: 1.5;
-  font-size: 95%;
-  padding: 12px 15px;
-  color: #0f0f0f;
-  background: #e0e3e5;
-}
-
-.tools-message ul {
-  margin: 0;
-  list-style: none;
-}
-
-.tools-message-black,
-.tools-message-blue,
-.tools-message-red,
-.tools-message-green {
-  color: #FFF;
-}
-
-.tools-message-black {
-  background: #0f0f0f;
-}
-
-.tools-message-blue {
-  background: #2575ed;
-}
-
-.tools-message-red {
-  background: #de2c3b;
-}
-
-.tools-message-yellow {
-  background: #ffc800;
-}
-
-.tools-message-green {
-  background: #2c9f42;
-}
-
-.tools-alert-black {
-  background: #dadada;
-}
-
-.tools-alert-blue {
-  background: #d3e3fb;
-}
-
-.tools-alert-red {
-  background: #f8d5d8;
-}
-
-.tools-alert-yellow {
-  background: #fff4cc;
-}
-
-.tools-alert-green {
-  background: #d5ecd9;
-}
-
-
 /* =Labels
 -----------------------------------------------------------------------------*/
 
@@ -2212,7 +2135,7 @@ input.input-smaller {
   list-style: none;
   background: #fff;
   width: 250px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px #000;
   max-height: 250px;
   overflow: auto;
 }
@@ -2277,7 +2200,7 @@ input.input-smaller {
   padding: 0;
   background: #fff;
   color: #000;
-  box-shadow: 0 1px 70px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 1px 70px #000;
 }
 
 .modal header {
