@@ -677,7 +677,7 @@ input[type="time"][disabled],
 input[type="search"][disabled],
 input[type="datetime-local"][disabled] {
   resize: none;
-  color: rgba(0, 0, 0, 0.5);
+  color: #000;
 }
 
 select[disabled],
@@ -727,7 +727,7 @@ table {
 table caption {
   text-transform: uppercase;
   padding: 0 1.0999999999999999em;
-  color: rgba(0, 0, 0, 0.4);
+  color: #000;
   font-size: 12.75px;
 }
 
@@ -739,7 +739,7 @@ table td {
 
 table tfoot th,
 table tfoot td {
-  color: rgba(0, 0, 0, 0.4);
+  color: #000;
 }
 
 
@@ -1298,7 +1298,7 @@ table.table-hovered tbody tr:hover td {
 .table-container::-webkit-scrollbar-thumb {
   border-radius: 8px;
   border: 3px solid #fff;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #000;
 }
 
 
@@ -1411,7 +1411,7 @@ table.table-hovered tbody tr:hover td {
 
 .forms-desc {
   margin-top: 4px;
-  color: rgba(0, 0, 0, 0.4);
+  color: #000;
   font-size: 12.75px;
   line-height: 1.4em;
 }
@@ -1450,7 +1450,7 @@ textarea.input-error,
 select.input-error,
 .input-error {
   border-color: #de2c3b;
-  box-shadow: 0 0 0 2px rgba(222, 44, 59, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 0 0 2px #000, 0 1px 2px #000 inset;
 }
 
 input.input-success,
@@ -1458,7 +1458,7 @@ textarea.input-success,
 select.input-success,
 .input-success {
   border-color: #2c9f42;
-  box-shadow: 0 0 0 2px rgba(44, 159, 66, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 0 0 2px #000, 0 1px 2px #000 inset;
 }
 
 input.input-gray,
@@ -1466,7 +1466,7 @@ textarea.input-gray,
 select.input-gray,
 .input-gray {
   border-color: #b3b6b7;
-  box-shadow: 0 0 0 2px rgba(179, 182, 183, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 0 0 2px #b3b6b7, 0 1px 2px #000 inset;
 }
 
 input[type="text"]:focus,
@@ -1486,52 +1486,13 @@ input[type="datetime-local"]:focus,
 textarea:focus {
   outline: none;
   border-color: #2575ed;
-  box-shadow: 0 0 0 2px rgba(37, 117, 237, 0.3), 0 1px 2px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 0 0 0 2px #2575ed, 0 1px 2px #000 inset;
 }
 
 
 /*
 	Search
 */
-
-input.input-search,
-input[type="search"] {
-  padding-right: .5em;
-  padding-left: .5em;
-  margin-bottom: 0;
-  border-radius: 15px;
-}
-
-input.input-on-black {
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(255, 255, 255, 0.35);
-}
-
-input.input-on-black::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-input.input-on-black::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.6);
-}
-
-input.input-on-black:focus,
-input.input-on-black.active {
-  border: 1px solid #fff;
-  background: #fff;
-  box-shadow: none;
-}
-
-input.input-on-black:focus::-webkit-input-placeholder,
-input.input-on-black.active::-webkit-input-placeholder {
-  color: #aaa;
-}
-
-input.input-on-black:focus::-moz-placeholder,
-input.input-on-black.active::-moz-placeholder {
-  color: #aaa;
-}
-
 
 /* Sizes */
 
@@ -2994,13 +2955,11 @@ input[type="submit"].btn-white.btn-outline.btn-active {
   border-radius: 0 2px 2px 0;
 }
 
-.btn-group > .btn.btn-round:first-child,
-.btn-group > .input-search:first-child {
+.btn-group > .btn.btn-round:first-child {
   border-radius: 15px 0 0 15px;
 }
 
-.btn-group > .btn.btn-round:last-child,
-.btn-group > .input-search:last-child {
+.btn-group > .btn.btn-round:last-child {
   border-radius: 0 15px 15px 0;
 }
 
@@ -3038,7 +2997,7 @@ input[type="submit"].btn-white.btn-outline.btn-active {
 .tools-message-blue,
 .tools-message-red,
 .tools-message-green {
-  color: rgba(255, 255, 255, 0.95);
+  color: #FFF;
 }
 
 .tools-message-black {
@@ -3187,33 +3146,6 @@ input[type="submit"].btn-white.btn-outline.btn-active {
 .label-white.label-outline {
   border-color: #ffffff;
   color: #ffffff;
-}
-
-
-/* =Progress
------------------------------------------------------------------------------*/
-
-#tools-progress {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000000;
-  height: 10px;
-}
-
-#tools-progress span {
-  display: block;
-  width: 100%;
-  height: 100%;
-  background-color: #1a52a5;
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
-  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent);
-  -webkit-animation: progress-bar-stripes 2s linear infinite;
-  -o-animation: progress-bar-stripes 2s linear infinite;
-  animation: progress-bar-stripes 2s linear infinite;
-  background-size: 40px 40px;
 }
 
 @-webkit-keyframes progress-bar-stripes {
@@ -3824,14 +3756,6 @@ ul.dropdown li.divider {
 .list-flat {
   margin-left: 0;
   list-style: none;
-}
-
-.color-black {
-  color: #0f0f0f;
-}
-
-.color-white {
-  color: #ffffff;
 }
 
 /* Responsive embedded objects */
