@@ -44,7 +44,7 @@ end
 
 group :production do
   gem 'rails_12factor'
-  gem 'pg'
+  gem 'pg', '0.19.0'
 end
 
 group :test do
@@ -53,7 +53,7 @@ group :test do
   gem 'database_cleaner'
 end
 
-  gem 'capybara', '2.8.1'
+  gem 'capybara', '2.9.1'
   gem 'rspec'
   gem 'web-console', group: :development
 
