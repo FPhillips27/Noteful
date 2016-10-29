@@ -6,7 +6,7 @@ gem 'rails'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '3.0.2'
+gem 'uglifier', '3.0.3'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.2.1'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -55,7 +55,7 @@ end
 
   gem 'capybara', '2.10.1'
   gem 'rspec'
-  gem 'web-console', group: :development
+  gem 'web-console', '3.4.0', group: :development
 
   gem 'record_tag_helper', '~> 1.0'
   gem "codeclimate-test-reporter", group: :test, require: nil
