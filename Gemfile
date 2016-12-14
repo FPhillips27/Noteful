@@ -6,7 +6,7 @@ gem 'rails'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '3.0.3'
+gem 'uglifier', '3.0.4'
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '4.2.1'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -17,7 +17,7 @@ gem 'jquery-rails', '4.2.1'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '2.6.0'
+gem 'jbuilder', '2.6.1'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.2', group: :doc
 
@@ -53,7 +53,7 @@ group :test do
   gem 'database_cleaner'
 end
 
-  gem 'capybara', '2.10.1'
+  gem 'capybara', '2.11.0'
   gem 'rspec'
   gem 'web-console', '3.4.0', group: :development
 
