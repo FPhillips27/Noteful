@@ -53,7 +53,7 @@ group :test do
   gem 'database_cleaner'
 end
 
-  gem 'capybara', '2.11.0'
+  gem 'capybara', '2.12.1'
   gem 'rspec'
   gem 'web-console', '3.4.0', group: :development
 
